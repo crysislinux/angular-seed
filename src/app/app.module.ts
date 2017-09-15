@@ -7,7 +7,7 @@ import { removeNgStyles, createNewHosts, createInputTransfer } from '@angularcla
 import { CoreModule } from '@app/core';
 import { routing } from './app.routing';
 import { AppComponent } from './app.component';
-
+import { TestPageComponent } from './test-page';
 
 @NgModule({
   imports: [
@@ -19,6 +19,7 @@ import { AppComponent } from './app.component';
   ],
   declarations: [
     AppComponent,
+    TestPageComponent,
   ],
   bootstrap: [ AppComponent ],
   providers: [
