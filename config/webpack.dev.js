@@ -65,9 +65,9 @@ module.exports = {
       {
         test: /\.ts$/,
         use: [
+          '@angularclass/hmr-loader',
           'awesome-typescript-loader',
           'angular2-template-loader',
-          '@angularclass/hmr-loader',
         ],
         exclude: [/\.(spec|e2e)\.ts$/]
       },
